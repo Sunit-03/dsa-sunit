@@ -15,7 +15,7 @@ int binSearch(int arr[], int size, int key){
         else{
             end=mid-1;
         }
-        mid=(start+end)/2;
+        mid=(start+end)/2; //mid=start+(end-start)/2 for large test cases
     }
     return -1;
 }
